@@ -1,0 +1,55 @@
+/* Write your code here. */
+.option-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  background-color: #f4f1ea;
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 300px;
+  padding: 20px;
+  border: none;
+}
+.option-title {
+  color: #2e353d;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+}
+.option-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cup-icon {
+  height: 25px;
+}
+.selected-container {
+  background-color: #0e8684;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 300px;
+  padding: 20px;
+  border: none;
+}
+.color {
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .option-container {
+    margin-bottom: 20px;
+    width: 280px;
+  }
+}
